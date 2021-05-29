@@ -78,7 +78,6 @@ public class Enemy : Tank
     public override void Die()
     {
         base.Die();
-        DieEvent.Invoke();
     }
 
     private IEnumerator Searching()
@@ -87,5 +86,10 @@ public class Enemy : Tank
         itSearch = true;
         yield return new WaitForSeconds(timeSearching);
         itSearch = false;
+    }
+
+    private void OnDestroy()
+    {
+        DieEvent.Invoke();
     }
 }

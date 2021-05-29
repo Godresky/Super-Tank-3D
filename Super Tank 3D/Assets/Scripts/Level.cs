@@ -15,6 +15,7 @@ public class Level : MonoBehaviour
     private Player player;
 
     private Enemy[] enemies;
+    private bool needCheck;
 
     private void Awake()
     {
@@ -33,18 +34,7 @@ public class Level : MonoBehaviour
 
     public void CheckWin()
     {
-        bool result = true;
-        foreach (Enemy enemy in enemies)
-        {
-            if (enemy != null)
-            {
-                result = false;
-                break;
-            }
-        }
-
-        if (result)
-            Win();
+        needCheck = true;
     }
 
     public void Restart()
@@ -55,6 +45,24 @@ public class Level : MonoBehaviour
     {
         PlayerPrefs.SetInt("Level", levelId + 1);
         SceneManager.LoadScene(levelId+1);
+    }
+
+    private void LateUpdate()
+    {
+        if (needCheck)
+        {
+            needCheck = false;
+            bool result = true;
+            foreach (Enemy enemy in enemies)
+            {
+                Debug.Log(enemy);
+                if (enemy)
+                    result = false;
+            }
+
+            if (result)
+                Win();
+        }
     }
 
     public void LoadLevel(int levelId)

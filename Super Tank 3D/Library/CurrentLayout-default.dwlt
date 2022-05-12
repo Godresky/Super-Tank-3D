@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -179
-    y: 139
+    x: -1920
+    y: 43
     width: 1920
     height: 1007
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -73,9 +73,6 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars:
-  - {fileID: 29}
-  m_MainToolbar: {fileID: 29}
   m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
@@ -121,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 342}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 780
+  controlID: 86
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 342}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 781
+  controlID: 87
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,12 +190,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203
     y: 0
-    width: 859
+    width: 390
     height: 957
   m_MinSize: {x: 277, y: 342}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 736
+  controlID: 82
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,7 +213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 859
+    width: 390
     height: 532
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -249,7 +246,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 532
-    width: 859
+    width: 390
     height: 425
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -275,14 +272,14 @@ MonoBehaviour:
   - {fileID: 13}
   m_Position:
     serializedVersion: 2
-    x: 1062
+    x: 593
     y: 0
-    width: 858
+    width: 1327
     height: 957
   m_MinSize: {x: 101, y: 242}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 782
+  controlID: 88
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,7 +297,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 858
+    width: 1327
     height: 528
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -328,7 +325,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 528
-    width: 858
+    width: 1327
     height: 429
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -359,9 +356,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 883
-    y: 169
-    width: 857
+    x: -1327
+    y: 73
+    width: 1326
     height: 507
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -395,7 +392,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -406,23 +403,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 857
+      width: 1326
       height: 486
-    m_Scale: {x: 0.44635418, y: 0.44635418}
-    m_Translation: {x: 428.5, y: 243}
+    m_Scale: {x: 0.46944448, y: 0.46944445}
+    m_Translation: {x: 663, y: 243}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
-      y: -544.4107
-      width: 1920
-      height: 1088.8214
+      x: -1412.3076
+      y: -517.6331
+      width: 2824.6152
+      height: 1035.2662
     m_MinimalGUI: 1
-  m_defaultScale: 0.44635418
-  m_LastWindowPixelSize: {x: 857, y: 507}
+  m_defaultScale: 0.46944445
+  m_LastWindowPixelSize: {x: 1326, y: 507}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -449,17 +446,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 19
+    x: -1920
+    y: 73
     width: 202
     height: 936
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8cf7ffff18fbffff3e440000
+      m_SelectedIDs: d25f0000
+      m_LastClickedID: 24530
+      m_ExpandedIDs: 82e7ffffc05f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -790,7 +787,7 @@ MonoBehaviour:
     oldSplitSize: 0
   m_Recording: 1
   m_ActiveNativePlatformSupportModuleName: 
-  m_SelectedModuleIndex: 0
+  m_SelectedModuleIndex: -1
   m_Modules:
   - id: 0
   - id: 1
@@ -818,6 +815,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: CPU Usage
+        m_LocalizedName: 
         m_IconName: Profiler.CPU
         m_ChartCounters:
         - m_Category: NoCategory
@@ -843,6 +841,8 @@ MonoBehaviour:
         m_PaneScroll: {x: 0, y: 0}
         m_ViewType: 0
         updateViewLive: 0
+        m_CurrentFrameIndex: 0
+        m_HierarchyOverruledThreadFromSelection: 0
         m_ProfilerViewFilteringOptions: 1
         m_FrameDataHierarchyView:
           m_Serialized: 1
@@ -888,7 +888,7 @@ MonoBehaviour:
               sortedAscending: 0
             m_VisibleColumns: 0000000001000000020000000300000004000000050000000600000007000000
             m_SortedColumns: 05000000
-          m_ThreadIndex: 0
+          m_ThreadIndexInThreadNames: 0
           m_DetailedViewType: 0
           m_DetailedViewSpliterState:
             ID: 0
@@ -1050,13 +1050,18 @@ MonoBehaviour:
                   sortedAscending: 0
                 m_VisibleColumns: 0000000001000000020000000300000004000000
                 m_SortedColumns: 03000000
+          m_FullThreadName: 
           m_ThreadName: Main Thread
+          <threadId>k__BackingField: 0
+          <threadIndex>k__BackingField: 0
+          m_GroupName: 
     00000001:
       type: {class: GPUProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_ProfilerWindow:
           id: 14
         m_Name: GPU Usage
+        m_LocalizedName: 
         m_IconName: Profiler.GPU
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1078,6 +1083,8 @@ MonoBehaviour:
         m_PaneScroll: {x: 0, y: 0}
         m_ViewType: 0
         updateViewLive: 0
+        m_CurrentFrameIndex: 0
+        m_HierarchyOverruledThreadFromSelection: 0
         m_ProfilerViewFilteringOptions: 1
         m_FrameDataHierarchyView:
           m_Serialized: 1
@@ -1115,7 +1122,7 @@ MonoBehaviour:
               sortedAscending: 0
             m_VisibleColumns: 00000000010000000200000003000000
             m_SortedColumns: 03000000
-          m_ThreadIndex: 0
+          m_ThreadIndexInThreadNames: 0
           m_DetailedViewType: 0
           m_DetailedViewSpliterState:
             ID: 0
@@ -1277,13 +1284,18 @@ MonoBehaviour:
                   sortedAscending: 0
                 m_VisibleColumns: 0000000001000000020000000300000004000000
                 m_SortedColumns: 03000000
+          m_FullThreadName: 
           m_ThreadName: Main Thread
+          <threadId>k__BackingField: 0
+          <threadIndex>k__BackingField: 0
+          m_GroupName: 
     00000002:
       type: {class: RenderingProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
       data:
         m_ProfilerWindow:
           id: 14
         m_Name: Rendering
+        m_LocalizedName: 
         m_IconName: Profiler.Rendering
         m_ChartCounters:
         - m_Category: Render
@@ -1303,6 +1315,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Memory
+        m_LocalizedName: 
         m_IconName: Profiler.Memory
         m_ChartCounters:
         - m_Category: Memory
@@ -1352,6 +1365,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Audio
+        m_LocalizedName: 
         m_IconName: Profiler.Audio
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1374,6 +1388,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Video
+        m_LocalizedName: 
         m_IconName: Profiler.Video
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1393,6 +1408,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Physics
+        m_LocalizedName: 
         m_IconName: Profiler.Physics
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1418,6 +1434,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Physics (2D)
+        m_LocalizedName: 
         m_IconName: Profiler.Physics2D
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1448,6 +1465,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Network Messages
+        m_LocalizedName: 
         m_IconName: Profiler.NetworkMessages
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1474,6 +1492,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Network Operations
+        m_LocalizedName: 
         m_IconName: Profiler.NetworkOperations
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1542,6 +1561,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: UI
+        m_LocalizedName: 
         m_IconName: Profiler.UI
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1557,6 +1577,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: UI Details
+        m_LocalizedName: 
         m_IconName: Profiler.UIDetails
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1573,6 +1594,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Global Illumination
+        m_LocalizedName: 
         m_IconName: Profiler.GlobalIllumination
         m_ChartCounters:
         - m_Category: NoCategory
@@ -1605,6 +1627,7 @@ MonoBehaviour:
         m_ProfilerWindow:
           id: 14
         m_Name: Virtual Texturing
+        m_LocalizedName: 
         m_IconName: Profiler.VirtualTexturing
         m_ChartCounters:
         - m_Category: Virtual Texturing
@@ -1623,12 +1646,15 @@ MonoBehaviour:
         m_ChartType: 1
         m_PaneScroll: {x: 0, y: 0}
         m_VTProfilerView:
-          m_ScrollAggregate: {x: 0, y: 0}
-          m_ScrollDemand: {x: 0, y: 0}
-          m_ScrollBias: {x: 0, y: 0}
+          id: 15
     0000000E:
       type: {class: ProfilerWindow/ProfilerWindowControllerProxy, ns: UnityEditor,
         asm: UnityEditor.CoreModule}
+    0000000F:
+      type: {class: VirtualTexturingProfilerView, ns: UnityEditor, asm: UnityEditor.CoreModule}
+      data:
+        m_SortAscending: 0
+        m_SortedColumn: -1
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1650,9 +1676,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 19
-    width: 857
+    x: -1717
+    y: 73
+    width: 388
     height: 511
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -1664,6 +1690,7 @@ MonoBehaviour:
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
+  m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
@@ -1777,9 +1804,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 551
-    width: 857
+    x: -1717
+    y: 605
+    width: 388
     height: 404
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -1795,22 +1822,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: A:\Projects\Super-Tank-3D\Super Tank 3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 36}
-    m_SelectedIDs: ee400000
-    m_LastClickedID: 16622
-    m_ExpandedIDs: 00000000b8400000ba400000bc400000be400000c0400000c2400000c4400000c6400000c840000000ca9a3b
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 1a620000
+    m_LastClickedID: 25114
+    m_ExpandedIDs: 000000001a6200001c6200001e62000020620000226200002462000026620000286200002a62000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1838,7 +1865,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 106}
     m_SelectedIDs: c83b0000d23b0000163c00000c3c0000
     m_LastClickedID: 15372
-    m_ExpandedIDs: 00000000b8400000ba400000bc400000be400000c0400000c2400000c4400000c6400000c840000000ca9a3b
+    m_ExpandedIDs: 000000001a6200001c6200001e62000020620000226200002462000026620000286200002a620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1865,22 +1892,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f0430000ee300000702b0000962e0000d82f00004a310000742400008e26000012280000b2310000f63100005a2f0000062c0000e22d0000e82d0000ea2d00004e2c0000202a0000a0310000cc2700003a2f00002c860000623d00008a2f0000882f00003a330000b834000072d6ffff202b000000290000562c00002629000058300000d0290000c62c0000622b0000222b0000b8740000fa380000d2240000e6220000222e0000a6440000462a0000aa2700003a3f0000b23b0000ca7f0000003c0000be3b00007442000024410000d88c02003c0c0300647e03004ec30900dc3e0000489400000e5b0000e0460000283f0000c0440000dc3d0000fa3e0000ce390000143b0000c23a0000e03c0000184a0000224a000040cfffff3c580000884800008a750000a2400000e43a0000ec7b0000cc9f0000a6420000006500001e4e0000e64d0000cea50000000000003487fffff44100008a510000cc560000f054000094560000b2540000da5400006c57000024520000dc520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Enemy
-      m_OriginalName: Enemy
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1962
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -1941,9 +1968,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1062
-    y: 103
-    width: 857
+    x: -1327
+    y: 73
+    width: 1326
     height: 507
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -2008,11 +2035,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.25811097, y: 0.61125106, z: -0.2207022, w: -0.71486104}
     speed: 2
-    m_Value: {x: -0.25811294, y: 0.6112557, z: -0.22070387, w: -0.71486646}
+    m_Value: {x: -0.25811097, y: 0.61125106, z: -0.2207022, w: -0.7148611}
   m_Size:
-    m_Target: 2.0597546
+    m_Target: 4.7597547
     speed: 2
-    m_Value: 2.0597546
+    m_Value: 4.7597547
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2058,9 +2085,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 547
-    width: 857
+    x: -1327
+    y: 601
+    width: 1326
     height: 408
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &28
@@ -2092,16 +2119,3 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 17642
---- !u!114 &29
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13963, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_DontSaveToLayout: 0
